@@ -1,0 +1,8 @@
+# Google Gemini API 키 설정
+# https://makersuite.google.com/app/apikey 에서 발급받을 수 있습니다
+GOOGLE_API_KEY=AIzaSyAOH44lJ4T6qhqSQ8CslLdVP9y2lkyt5ac
+
+# 이메일 설정 (선택사항)
+# 실제 이메일 전송을 원하는 경우 아래 설정을 추가하세요
+# EMAIL_ADDRESS=your_email@gmail.com
+# EMAIL_PASSWORD=your_app_password_here
