@@ -22,7 +22,7 @@ load_dotenv()
 
 # Google Gemini API 키 직접 설정 (환경 변수가 없는 경우)
 if not os.getenv('GOOGLE_API_KEY'):
-    os.environ['GOOGLE_API_KEY'] = "AIzaSyAOH44lJ4T6qhqSQ8CslLdVP9y2lkyt5ac"
+    os.environ['GOOGLE_API_KEY'] = "AIzaSyAlUl_2hPSCrCzR9VMnmvfh4JLVR2K7gnE"
 
 def main():
     """
@@ -194,6 +194,7 @@ def input_tab():
         draft_text = ""
         
         if draft_input_method == "직접 입력":
+            
             draft_text = st.text_area(
                 "수행평가 초안을 입력하세요:",
                 height=300,
